@@ -1,0 +1,43 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 140px 0;
+}
+
+.hero__block-description {
+    padding: 0 10px;
+    width: 50%;
+}
+.hero__block-description-title {
+    color: rgba(255, 255, 255, 1);
+font-family: interBold;
+font-size: 60px;
+line-height: 77px;
+text-align: left;
+margin-bottom: 24px;
+width: 100%;
+max-width: 656px;
+}
+.hero__block-description-text {
+    color: rgba(255, 255, 255, 1);
+
+font-family: interRegular;
+font-size: 18px;
+line-height: 30px;
+text-align: left;
+margin-bottom: 60px;
+width: 100%;
+max-width: 656px;
+}
+.hero__block-description-free {
+    background: #4F9CF9;
+    padding: 18px 24px;
+    border-radius: 8px;
+
+    color: rgba(255, 255, 255, 1);
+font-family: interMedium;
+font-size: 18px;
+text-align: left;
+}

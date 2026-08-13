@@ -1,0 +1,32 @@
+@font-face {
+    font-family: dmSansMedium;
+    src: url('../fonts/DMSans_24pt-Medium.woff2');
+}
+@font-face {
+    font-family: interBold;
+    src: url('../fonts/Inter_24pt-Bold.woff2');
+}
+@font-face {
+    font-family: interMedium;
+    src: url('../fonts/Inter_24pt-Medium.woff2');
+}
+@font-face {
+    font-family: interRegular;
+    src: url('../fonts/Inter_24pt-Regular.woff2');
+}
+@font-face {
+    font-family: interSemiBold;
+    src: url('../fonts/Inter_24pt-SemiBold.woff2');
+}
+@font-face {
+    font-family: montserratMedium;
+    src: url('../fonts/Montserrat-Medium.woff2');
+}
+@font-face {
+    font-family: montserratRegular;
+    src: url('../fonts/Montserrat-Regular.woff2');
+}
+@font-face {
+    font-family: montserratSemiBold;
+    src: url('../fonts/Montserrat-SemiBold.woff2');
+}
