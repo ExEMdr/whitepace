@@ -3,6 +3,7 @@
     padding: 140px 220px;
     position: relative;
     overflow: hidden;
+    margin-bottom: 140px;
 }
 .work__images {
 position: absolute;
