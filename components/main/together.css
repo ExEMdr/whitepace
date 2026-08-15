@@ -49,3 +49,10 @@ font-family: interMedium;
 font-size: 18px;
 text-align: left;
 }
+
+@media screen and (max-width: 1152px){
+    .together__wrapper img {
+        width: 100%;
+        max-width: 490px;
+    }
+}

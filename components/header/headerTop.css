@@ -62,3 +62,37 @@ font-family: interMedium;
 font-size: 18px;
 text-align: left;
 }
+
+.header__burger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.header__burger span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: white;
+}
+
+.header__burger {
+    display: none;
+}
+
+@media screen and (max-width: 1152px){
+    .header__nav {
+        display: none;
+    }
+
+    .header__burger {
+        display: flex;
+    }
+}

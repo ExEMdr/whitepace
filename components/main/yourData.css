@@ -48,3 +48,9 @@ font-size: 18px;
 line-height: 23px;
 text-align: left;
 }
+
+@media screen and (max-width: 1152px){
+    .your__data-wrapper img {
+        max-width: 562px;
+    }
+}

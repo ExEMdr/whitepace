@@ -59,3 +59,19 @@ font-family: interMedium;
 font-size: 18px;
 text-align: left;
 }
+
+@media screen and (max-width: 1152px){
+    .customise__block-images {
+        max-width: 534px;
+    }
+
+    .customise__block-description-title {
+    font-size: 64px;
+    line-height: 77px;
+    }
+
+    .customise__block-description-text {
+    color: rgba(33, 37, 41, 1);
+    max-width: 494px;
+}
+}

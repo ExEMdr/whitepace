@@ -57,3 +57,10 @@ font-family: interMedium;
 font-size: 18px;
 text-align: left;
 }
+
+@media screen and (max-width: 1152px){
+     .management__block-images {
+        width: 100%;
+        max-width: 528px;
+    }
+}

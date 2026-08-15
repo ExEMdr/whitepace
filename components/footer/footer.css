@@ -176,3 +176,9 @@ text-align: left;
     display: flex;
     gap: 32px;
 }
+
+@media screen and (max-width: 1400px){
+    .footer {
+        padding: 140px 0 32px 0;
+    }    
+}

@@ -68,3 +68,27 @@ font-size: 18px;
 line-height: 23px;
 text-align: left;
 }
+
+@media screen and (max-width: 1152px){
+    .work__images img {
+    display: none;
+}
+
+.work__inner {
+    align-items: flex-start;
+}
+
+.work {
+    padding: 140px 0;
+}
+
+.work__inner-title {
+    max-width: 650px;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.work__inner-description {
+    max-width: 650px;
+}
+}

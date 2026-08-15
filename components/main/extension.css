@@ -63,3 +63,9 @@ font-family: interMedium;
 font-size: 18px;
 text-align: left;
 }
+
+@media screen and (max-width: 1152px){
+    .extension__block-images {
+        max-width: 460px;
+    }
+}
