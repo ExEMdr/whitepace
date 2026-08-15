@@ -1,0 +1,100 @@
+.clients__wrapper {
+    margin-bottom: 140px;
+}
+.clients__wrapper-title {
+    color: rgba(33, 37, 41, 1);
+font-family: interBold;
+font-size: 70px;
+text-align: center;
+margin-bottom: 60px;
+}
+.clients__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  
+}
+.clients__inner-block {
+    border-radius: 10px;
+background: rgba(79, 156, 249, 1);
+padding: 60px 40px;
+width: 100%;
+transition: all 0.5s;
+}
+
+.clients__inner-block:hover {
+    border-radius: 10px;
+box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
+background: rgba(255, 255, 255, 1);
+}
+
+.clients__inner-block:hover .clients__inner-block-images-top {
+    color: #043873;
+}
+
+.clients__inner-block:hover .clients__inner-block-description,
+.clients__inner-block:hover .clients__inner-block-info-inner-description {
+    color: rgba(33, 37, 41, 1);
+}
+
+.clients__inner-block-images-top {
+    color: white;
+}
+.clients__inner-block-description {
+color: rgba(255, 255, 255, 1);
+font-family: interRegular;
+font-size: 18px;
+line-height: 30px;
+text-align: left;
+width: 100%;
+max-width: 390px;
+margin-top: 32px;
+margin-bottom: 40px;
+}
+.clients__inner-block-hr {
+}
+.clients__inner-block-info {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+.clients__inner-block-info img {
+    display: block;
+    object-fit: contain;
+}
+
+.clients__inner-block-info-inner {
+}
+.clients__inner-block-info-inner-title {
+    color: rgba(33, 37, 41, 1);
+font-family: interSemiBold;
+font-size: 24px;
+text-align: left;
+margin-bottom: 15px;
+}
+.clients__inner-block-info-inner-description {
+    color: rgba(255, 255, 255, 1);
+
+font-family: interRegular;
+line-height: 20px;
+text-align: left;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 60px;
+}
+.pagination__btn {
+width: 12px;
+height: 12px;
+background-color: #4F9CF9;
+border-radius: 50%;
+border: none;
+cursor: pointer;
+transition: all 0.3s;
+}
