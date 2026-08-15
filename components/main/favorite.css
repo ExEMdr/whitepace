@@ -1,0 +1,124 @@
+.favorite {
+    background-color: #043873;
+    background-image: url("../../images/img/line.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 140px 220px;
+    margin-bottom: 140px;
+}
+.favorite__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.favorite__inner-left {
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+    height: 480px;
+}
+.favorite__images {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    padding: 14px;
+    width: 72px;
+    height: 72px;
+}
+
+.favorite__images-big {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    padding: 36px 26px 28px 26px;
+    width: 100px;
+    height: 100px;
+}
+
+.favorite__images-link {
+   display: flex; /* Меняем поведение ссылки, чтобы она заполняла родителя */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.favorite__inner-right {
+}
+.favorite__inner-right-title {
+    color: rgba(255, 255, 255, 1);
+font-family: interBold;
+font-size: 72px;
+line-height: 87px;
+text-align: left;
+width: 100%;
+max-width: 800px;
+margin-bottom: 24px;
+}
+.favorite__inner-right-description {
+    color: rgba(255, 255, 255, 1);
+font-family: interRegular;
+line-height: 30px;
+text-align: left;
+margin-bottom: 60px;
+width: 100%;
+max-width: 800px;
+}
+.favorite__inner-right-link {
+    padding: 20px 40px 20px 40px;
+    border-radius: 8px;
+    background: rgba(79, 156, 249, 1);
+    color: rgba(255, 255, 255, 1);
+font-family: interMedium;
+font-size: 18px;
+line-height: 23px;
+text-align: left;
+}
+
+.circle {
+    position: absolute;
+    z-index: 0;
+}
+
+.gmail {
+    position: absolute;
+    top: -30px;
+    left: 210px;
+}
+
+.dropbox {
+    position: absolute;
+    top: 120px;
+    left: 70px;
+}
+
+.slack {
+    position: absolute;
+    top: 120px;
+    right: 150px;
+}
+
+.outlook {
+    position: absolute;
+    top: 250px;
+    left: -30px;
+}
+
+.teams {
+    position: absolute;
+    top: 190px;
+    left: 200px;
+}
+
+.drive {
+    position: absolute;
+    top: 250px;
+    right: 40px;
+}
+
+.calendar {
+    position: absolute;
+    top: 380px;
+    left: 210px;
+}

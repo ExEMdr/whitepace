@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="291" height="291" fill="none" viewBox="0 0 291 291"><circle id="Ellipse 24" cx="145.5" cy="145.5" r="144.5" stroke="#4f9cf9" stroke-dasharray="15 15" stroke-linecap="butt" stroke-width="2"/></svg>
+<svg viewBox="0 0 509.25 436.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="509.250000" height="436.500000" fill="none" customFrame="#000000">
+	<g id="Группа 1">
+		<circle id="Ellipse 24" cx="248.38916" cy="145.5" r="144.5" stroke="rgb(79,156,249)" stroke-linecap="butt" stroke-dasharray="15 15 " stroke-width="2.000000" />
+		<circle id="Ellipse 25" cx="145.5" cy="291" r="144.5" stroke="rgb(79,156,249)" stroke-linecap="butt" stroke-dasharray="15 15 " stroke-width="2.000000" />
+		<circle id="Ellipse 26" cx="363.75" cy="291" r="144.5" stroke="rgb(79,156,249)" stroke-linecap="butt" stroke-dasharray="15 15 " stroke-width="2.000000" />
+	</g>
+</svg>
