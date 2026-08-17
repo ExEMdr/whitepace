@@ -97,17 +97,20 @@ text-align: left;
     font-size: 54px;
     line-height: 65px;
     text-align: center;
-    width: 728px;
+    width: 100%;
+    max-width: 728px;
 }
 
 .management__block-description {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .management__block-description-text {
-    width: 560px;
+    width: 100%;
+    max-width: 560px;
     text-align: center;
 }
 
@@ -116,7 +119,9 @@ text-align: left;
 }
 
 .management__block-images {
-    width: 561px;
+     width: 100%;
+    max-width: 561px;
+    height: auto;
 }
 }
 
@@ -130,7 +135,7 @@ text-align: left;
     }
 
     .management__block-description-text {
-        width: 300px;
+        max-width: 300px;
     }
 
     .management__block-images {

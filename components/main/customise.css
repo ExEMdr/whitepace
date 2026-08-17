@@ -111,15 +111,17 @@ text-align: left;
     }
 
     .customise__block-description-title {
-        width: 728px;
+        width: 100%;
+    max-width: 728px;
         font-size: 42px;
         line-height: 65px;
         text-align: center;
-        white-space: nowrap;
+        white-space: wrap;
     }
 
     .customise__block-description-text {
-        width:728px;
+        width: 100%;
+    max-width: 728px;
         text-align: center;
     }
 }
@@ -130,9 +132,9 @@ text-align: left;
     }
 
     .customise__block-description-title {
-        font-size: 37px;
-        max-width: 300px;
-        line-height: 45px;
+        font-size: 30px;
+        width: auto;
+        line-height: 35px;
         white-space: wrap;
         margin-top: 40px;
     }
@@ -143,7 +145,7 @@ text-align: left;
     }
 
     .customise__block-description-text {
-        width: 300px;
+        min-width: 250px;
     }
 
     .customise__block-description-free {

@@ -107,11 +107,13 @@ text-align: left;
         font-size: 54px;
         line-height: 65px;
         text-align: center;
-        width: 728px;
+        width: 100%;
+    max-width: 728px;
     }
 
     .extension__block-description-text {
-        width: 560px;
+        width: 100%;
+    max-width: 560px;
         text-align: center;
     }
 
@@ -124,10 +126,11 @@ text-align: left;
 @media screen and (max-width: 570px) {
     .extension__block-description-title {
         font-size: 37px;
+                width: auto;
     }
 
     .extension__block-description-text {
-        width: 300px;
+        min-width: 250px;
     }
 
     .extension__block-description-free {

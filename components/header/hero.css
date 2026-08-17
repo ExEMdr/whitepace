@@ -74,7 +74,7 @@ text-align: left;
 
 .block-images {
         
-        width: 550px;
+        max-width: 550px;
     }
 
     .hero__block-description {
@@ -89,7 +89,8 @@ text-align: left;
     font-size: 54px;
     line-height: 64px;
     text-align: center;
-    width: 768px;
+    width: 100%;
+    max-width: 768px;
 }
 
 .hero__block-description-free {
@@ -105,11 +106,11 @@ text-align: left;
     .hero__block-description-title {
         font-size: 40px;
         line-height: 45px;
-        max-width: 300px;
+        width: auto;
     }
 
     .hero__block-description-text {
-        min-width: 300px;
+        min-width: 250px;
     }
     }
 

@@ -90,13 +90,13 @@ text-align: left;
 
 .work__inner-title {
     max-width: 650px;
-    font-size: 64px;
-    line-height: 77px;
+    font-size: 45px;
+    line-height: 60px;
     text-align: left;
 }
 
 .work__inner-description {
-    max-width: 650px;
+    max-width: 250px;
     text-align: left;
 }
 }

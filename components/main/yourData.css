@@ -67,7 +67,7 @@ text-align: left;
 
 @media screen and (max-width: 950px) {
     .your__data-wrapper img {
-        max-width: 400px;
+        max-width: 100%;
     }
 }
 
@@ -82,7 +82,13 @@ text-align: left;
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
+
+    .your__data-wrapper img {
+    width: 100%;
+    height: auto;
+}
 
     .your__data-inner-title {
         max-width: 728px;

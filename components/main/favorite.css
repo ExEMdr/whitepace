@@ -194,7 +194,7 @@ text-align: left;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 100px;
+        gap: 50px;
     }
 
     .circle {
@@ -214,7 +214,7 @@ text-align: left;
 
 @media screen and (max-width: 500px) {
     .favorite__wrapper {
-        gap: 210px;
+        gap: 150px
     }
 
     .favorite__inner-right-title {

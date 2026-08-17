@@ -45,6 +45,7 @@ max-width: 980px;
     display: flex;
     justify-content: center;
     gap: 32px;
+    overflow: visible;
 }
 .plan__wrapper-block {
     box-sizing: border-box;
@@ -110,7 +111,7 @@ background: rgba(255, 255, 255, 1);
 
 .active:hover {
     background: #043873;
-    zoom: 1.1;
+    transform: scale(1.05);
 }
 
 .active:hover .plan__wrapper-block-title,
