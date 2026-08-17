@@ -95,4 +95,22 @@ text-align: left;
     .header__burger {
         display: flex;
     }
+
+    .header {
+        min-height: 50vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header__block-btn {
+    display: none;
+}
+
+}
+
+@media screen and (max-width: 320px){
+    .header__burger {
+        width: 42px;
+        align-items: center;
+    }  
 }

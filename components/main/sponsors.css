@@ -26,6 +26,44 @@ margin-bottom: 100px;
 .sponsors__inner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .sponsors__inner-link {
+}
+
+@media screen and (max-width: 1150px) {
+    .sponsors__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .sponsors__inner {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .sponsors__title {
+        font-size: 54px;
+        line-height: 65px;
+        text-align: center;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sponsors__title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .sponsors__title {
+        max-width: 288px;
+        font-size: 36px;
+        line-height: 44px;
+    }
 }
