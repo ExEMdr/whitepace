@@ -67,15 +67,20 @@ text-align: left;
 
 @media screen and (max-width: 950px) {
     .your__data-wrapper img {
-        max-width: 100%;
+        width: auto;
+    }
+
+    .your__data-wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
     }
 }
 
 
 @media screen and (max-width: 768px){
+
     .your__data-wrapper {
-        flex-direction: column-reverse;
-        align-items: center;
+        gap: 50px;
     }
 
     .your__data-inner {
